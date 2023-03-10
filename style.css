@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#assignment{
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+#assignment h3{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 30px;
+
+}
+#assignment .chicken{
+    border: 2px solid black;
+    width: 30%;
+    margin-left: 8px;
+    padding: 5px;
+    position: relative;
+    background-color: rgb(193, 195, 197);
+
+}
+#assignment .chicken h4{
+    background-color: rgb(182, 13, 13);
+    color: white;
+    font-size: 24px;
+    width: fit-content;
+    border: 2px solid black;
+    padding: 3px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#assignment .chicken p{
+    padding-top: 45px;
+}
+#assignment .beef{
+    border: 2px solid black;
+    background-color: rgb(193, 195, 197);
+    width: 30%;
+    margin-left: 8px;
+    padding: 5px;
+    position: relative;
+
+}
+#assignment .beef h4{
+    background-color: rgb(230, 151, 48);
+    font-size: 24px;
+    width: fit-content;
+    border: 2px solid black;
+    padding: 3px;
+    position: absolute;
+    top: 0;
+   right: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#assignment .beef p{
+    padding-top: 45px;
+}
+#assignment .sushi{
+    border: 2px solid black;
+    background-color: rgb(193, 195, 197);
+    width: 30%;
+    margin-left: 8px;
+    padding: 5px;
+    position: relative;
+
+}
+#assignment .sushi  h4{
+    background-color: antiquewhite;
+    font-size: 24px;
+    width: fit-content;
+    border: 2px solid black;
+    padding: 3px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#assignment .sushi p{
+    padding-top: 45px;  
+}   
+
+@media (max-width: 786px){
+    #assignment .chicken{
+        width: 45%;
+    }
+    #assignment .beef{
+        width: 45%;
+    }
+    #assignment .sushi{
+        width: 95%;
+        margin-top: 10px;
+    }
+}
+@media  (max-width: 425px){
+    #assignment .chicken{
+        width: 90%;
+        margin-bottom: 10px;
+    }
+    #assignment .beef{
+        width: 90%;
+        margin-bottom: 10px;
+    }
+    #assignment .sushi{
+        width: 90%;
+        
+    }
+}
